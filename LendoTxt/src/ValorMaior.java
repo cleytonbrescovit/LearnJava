@@ -2,13 +2,20 @@
  * Created by cleyton on 19/04/16.
  */
 public class ValorMaior {
-    int valorMaior;
+    private int valorMaior;
+    private String pessoa;
 
     public int getValorMaior() {
         return valorMaior;
     }
+    public String getPessoa() {
+        return pessoa;
+    }
 
-    public void setValorMaior(int valorMaior) {
-        this.valorMaior = valorMaior;
+    public void setValorMaior(String nome ,int valorMaior) {
+        if(valorMaior > this.valorMaior){
+            this.valorMaior = valorMaior;
+            this.pessoa = nome;
+        }
     }
 }
