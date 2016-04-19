@@ -1,0 +1,6 @@
+Leonardo;20
+Cleyton;70
+Patricia;50
+Leonardo;50
+Clayton;10
+Patricia;60

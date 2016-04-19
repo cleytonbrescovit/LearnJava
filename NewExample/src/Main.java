@@ -18,5 +18,12 @@ public class Main {
         adc.roda(cp);
 
         System.out.println("Saldo Total: " + adc.getSaldoTotal());
+
+        ContaCorrente ff = new ContaCorrente();
+        ff.deposita(100);
+        System.out.println(ff.calculaTributos());
+
+        Tributavel t = ff;
+        System.out.println(t.calculaTributos());
     }
 }
