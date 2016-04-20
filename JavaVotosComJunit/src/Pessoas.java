@@ -22,14 +22,6 @@ public class Pessoas {
         this.nome = nome;
     }
 
-    public String getPartido() {
-        return partido;
-    }
-
-    public void setPartido(String partido) {
-        this.partido = partido;
-    }
-
     public String getEstado() {
         return estado;
     }
