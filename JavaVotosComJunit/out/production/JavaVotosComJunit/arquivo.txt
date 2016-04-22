@@ -8,5 +8,3 @@ Marcelo;PT;RS;SIM
 Patricia;PDT;SC;NAO
 Clayton;PDT;SC;NAO
 Etevaldo;PT;RS;SIM
-Etevaldo;PT;RS;SIM
-Etevaldo;PT;RS;SIM

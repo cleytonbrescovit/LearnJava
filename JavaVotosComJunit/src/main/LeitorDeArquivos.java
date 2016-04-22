@@ -1,3 +1,5 @@
+package main;
+
 import java.io.*;
 import java.util.*;
 
@@ -9,8 +11,8 @@ public class LeitorDeArquivos {
         InputStream is = new FileInputStream("src/arquivo.txt");
         InputStreamReader isr = new InputStreamReader(is);
         BufferedReader br = new BufferedReader(isr);
-
         List<Pessoas> bancoDeDados = new ArrayList<>();
+
         String temp[] = new String[4];
 
         String s = br.readLine();
@@ -26,7 +28,9 @@ public class LeitorDeArquivos {
 
         ContaVotos cv = new ContaVotos();
 
-        cv.contaVotos(bancoDeDados);
-        cv.contaVotosEstado(bancoDeDados);
+        cv.contaVotosSim(bancoDeDados);
+        cv.contaVotosNao(bancoDeDados);
+        cv.contaVotosEstadoSim(bancoDeDados);
+        cv.contaVotosEstadoNao(bancoDeDados);
     }
 }

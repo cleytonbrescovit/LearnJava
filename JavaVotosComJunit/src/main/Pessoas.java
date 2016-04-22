@@ -1,3 +1,5 @@
+package main;
+
 /**
  * Created by cleyton on 20/04/16.
  */
@@ -12,6 +14,14 @@ public class Pessoas {
         this.partido = partido;
         this.estado = estado;
         this.voto = voto;
+    }
+
+    public String getPartido() {
+        return partido;
+    }
+
+    public void setPartido(String partido) {
+        this.partido = partido;
     }
 
     public String getNome() {
